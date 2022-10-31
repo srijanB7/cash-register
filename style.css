@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    color: blueviolet;
+}
+h2,
+h5,
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+h6 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#billContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#givenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#amount {
+    border-color: blueviolet;
+    border-radius: 6px;
+}
+
+#given {
+    border-color: blueviolet;
+    border-radius: 6px;
+}
+
+#calculate {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+
+table {
+    border: 2px solid blueviolet;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 2px solid blueviolet;
+}
+
+th {
+    border: 2px solid blueviolet;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid blueviolet;
+    width: 50px;
+}
